@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Actividad4-SQLite</string>
+    <string name="txttitulo">Inserte los datos abajo</string>
+    <string name="hintnombre">Nombre</string>
+    <string name="hintdni">DNI</string>
+    <string name="hintapellidos">Apellidos</string>
+    <string name="hintedad">Edad</string>
+    <string name="hintdirec">Dirección</string>
+    <string name="btnInsert">Insertar nuevos datos</string>
+    <string name="btnUpdate">Actualizar Datos</string>
+    <string name="btnDelete">Borrar Datos</string>
+    <string name="btnView">Ver los datos</string>
+</resources>

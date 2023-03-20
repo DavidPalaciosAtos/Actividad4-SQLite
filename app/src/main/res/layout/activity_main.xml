@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txttitulo"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/dni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintdni"
+        android:textSize="24sp"
+        android:layout_below="@id/texttitle"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintnombre"
+        android:textSize="24sp"
+        android:layout_below="@id/dni"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/apellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintapellidos"
+        android:textSize="24sp"
+        android:layout_below="@id/nombre"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintedad"
+        android:textSize="24sp"
+        android:layout_below="@id/apellidos"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintdirec"
+        android:textSize="24sp"
+        android:layout_below="@id/edad"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnInsert"
+        android:textSize="24sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/direccion"
+        />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnUpdate"
+        android:textSize="24sp"
+        android:layout_below="@+id/btnInsert"
+        />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDelete"
+        android:textSize="24sp"
+        android:layout_below="@+id/btnUpdate"
+        />
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnView"
+        android:textSize="24sp"
+        android:layout_below="@+id/btnDelete"
+        />
+
+
+
+</RelativeLayout>
